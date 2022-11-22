@@ -1,0 +1,245 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 11,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/target/**": true
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "tabnine.experimentalAutoImports": true,
+    "vim.argumentObjectOpeningDelimiters": [
+        "(",
+        "{",
+        "[",
+        "<"
+    ],
+    "vim.argumentObjectClosingDelimiters": [
+        ")",
+        "}",
+        "]",
+        ">"
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "n"
+            ]
+        },
+        {
+            "before": [
+                "l"
+            ],
+            "after": [
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "T"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "N"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "S"
+            ]
+        },
+        {
+            "before": [
+                "t"
+            ],
+            "after": [
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "s"
+            ],
+            "after": [
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "T"
+            ],
+            "after": [
+                "J"
+            ]
+        },
+        {
+            "before": [
+                "N"
+            ],
+            "after": [
+                "K"
+            ]
+        },
+        {
+            "before": [
+                "S"
+            ],
+            "after": [
+                "L"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "n"
+            ]
+        },
+        {
+            "before": [
+                "l"
+            ],
+            "after": [
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "T"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "N"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "S"
+            ]
+        },
+        {
+            "before": [
+                "t"
+            ],
+            "after": [
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "s"
+            ],
+            "after": [
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "T"
+            ],
+            "after": [
+                "J"
+            ]
+        },
+        {
+            "before": [
+                "N"
+            ],
+            "after": [
+                "K"
+            ]
+        },
+        {
+            "before": [
+                "S"
+            ],
+            "after": [
+                "L"
+            ]
+        },
+    ],
+    "window.nativeFullScreen": true,
+    "window.nativeTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editorInlayHint.foreground": "#ffffff66",
+        "editorInlayHint.background": "#ffffff00",
+        "editorInlayHint.typeForeground": "#ffffff66",
+        "editorInlayHint.typeBackground": "#ffffff00",
+        "editorInlayHint.parameterForeground": "#ffffff66",
+        "editorInlayHint.parameterBackground": "#ffffff00",
+    },
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "editor.minimap.enabled": false,
+    "eslint.format.enable": true,
+    "eslint.codeActionsOnSave.rules": true,
+    "bazel.buildifierExecutable": "/Users/ragkar/go/bin/buildifier",
+}
+
