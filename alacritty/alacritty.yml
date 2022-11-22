@@ -1,0 +1,47 @@
+shell:
+  program: /opt/homebrew/bin/zsh
+  args:
+    - --login
+    - -c
+    - tmux
+
+font:
+  normal:
+    family: MesloLGS NF
+    style: Regular
+  bold:
+    family: MesloLGS NF
+    style: Bold
+  italic:
+    family: MesloLGS NF
+    style: Italic
+  bold_italic:
+    family: MesloLGS NF
+    style: Bold Italic
+  size: 12
+
+key_bindings:
+  # Split
+  - { key: D, mods: Command,        chars: "\x07\x76" }
+  - { key: D, mods: Command|Shift,  chars: "\x07\x2d" }
+  # Change window
+  - { key: H, mods: Command,        chars: "\x07\x68" }
+  - { key: T, mods: Command,        chars: "\x07\x74" }
+  - { key: N, mods: Command,        chars: "\x07\x6e" }
+  - { key: S, mods: Command,        chars: "\x07\x73" }
+  # Resize
+  - { key: H, mods: Command|Shift,  chars: "\x07\x48" }
+  - { key: T, mods: Command|Shift,  chars: "\x07\x54" }
+  - { key: N, mods: Command|Shift,  chars: "\x07\x4e" }
+  - { key: S, mods: Command|Shift,  chars: "\x07\x53" }
+  # Change tab
+  - { key: Key1, mods: Command,     chars: "\x07\x31" }
+  - { key: Key2, mods: Command,     chars: "\x07\x32" }
+  - { key: Key3, mods: Command,     chars: "\x07\x33" }
+  - { key: Key4, mods: Command,     chars: "\x07\x34" }
+  - { key: Key5, mods: Command,     chars: "\x07\x35" }
+  - { key: Key6, mods: Command,     chars: "\x07\x36" }
+  - { key: Key7, mods: Command,     chars: "\x07\x37" }
+  - { key: Key8, mods: Command,     chars: "\x07\x38" }
+  - { key: Key9, mods: Command,     chars: "\x07\x39" }
+
